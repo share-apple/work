@@ -10,7 +10,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="me.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/me.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="me.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mycss/me.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="149" column="26" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -18,8 +37,8 @@
         <option value="$PROJECT_DIR$/kuangjia.css" />
         <option value="$PROJECT_DIR$/kuangjia.html" />
         <option value="$PROJECT_DIR$/mycss/kuangjia.css" />
-        <option value="$PROJECT_DIR$/mycss/me.css" />
         <option value="$PROJECT_DIR$/me.html" />
+        <option value="$PROJECT_DIR$/mycss/me.css" />
       </list>
     </option>
   </component>
@@ -46,6 +65,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -53,11 +73,15 @@
               <item name="my" type="b2602c69:ProjectViewProjectNode" />
               <item name="my" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="mycss" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,11 +134,12 @@
       <workItem from="1530587263844" duration="5006000" />
       <workItem from="1530666038532" duration="26483000" />
       <workItem from="1530700546635" duration="19000" />
+      <workItem from="1530802810470" duration="175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31508000" />
+    <option name="totallyTimeSpent" value="31683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -167,13 +192,6 @@
     <entry file="file://$PROJECT_DIR$/kuangjia.css" />
     <entry file="file://$PROJECT_DIR$/kuangjia.html" />
     <entry file="file://$PROJECT_DIR$/mycss/kuangjia.css" />
-    <entry file="file://$PROJECT_DIR$/mycss/me.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="115" column="20" lean-forward="true" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://G:/css动画效果/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-210">
@@ -181,10 +199,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mycss/me.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="149" column="26" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/me.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
+        <state relative-caret-position="240">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
         </state>
       </provider>
     </entry>
