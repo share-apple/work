@@ -1,0 +1,589 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-20 11:13:58
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-06-23 13:27:04
+*/
+*{
+	margin : 0;
+	padding : 0;
+	box-sizing: border-box;
+}
+body{
+	background: #f7f7f5;
+}
+.nav{
+	width : 100%;
+	height : 46px;
+	background : #30302f;
+}
+.brand{
+	width: 100%;
+	height: 114px;
+}
+.link{
+	width: 100%;
+	height: 54px;	
+}
+.banner{
+	width: 100%;
+	height: 450px;
+}
+.container{
+	width : 1200px;
+	height : 100%;
+	margin : 0 auto 0 auto ;
+}
+.nav .container{
+	background : #30302f ;
+}
+.nav .logo{
+	width :111px ;
+	height : 44px;
+	background : #30302f;
+	float : left;
+}
+.nav .title{
+	width :750px ;
+	height : 44px;
+	background : #30302f;
+	float : left;
+	margin-right  : 20px;
+	margin-left: 120px;
+}
+
+.nav .search{
+	width : 193px;
+	height: 44px;
+	background : #30302f ;
+	float : right;
+}
+
+.nav .title a{
+	font-size : 12px;
+	color: white  ;
+	margin-left: 20px; 
+	margin-right:20px;
+	text-decoration : none;
+	line-height : 44px;
+}
+.nav .title a:hover{
+	color : #8aaa8a;
+}
+.nav .title .change{
+	color : #8aaa8a;
+}
+.nav .search .picture1{
+	margin-right:36px;
+	margin-left: 20px;	
+}
+.nav .search .picture1:hover{
+	color : #8aaa8a;
+}
+.brand img{
+	margin-left: 420px;
+	margin-top: 33px;
+}
+
+.brand .container{
+	background: #f7f7f5;	
+}
+.link .container .lang1{
+	width : 513px;
+	height : 48px;
+	background : #f7f7f5 ;
+	margin-left: 405px;
+	float : left;
+}
+.link .container .lang2{
+	display: block;
+	width : 202px;
+	height : 48px;
+	background : #f7f7f5 ;
+	float: right ;
+}
+.link .container .lang1 a{
+		text-decoration : none;
+	line-height : 48px;
+	margin-left: 30px;
+	font-size : 13px;
+	color : #6c7880;
+}
+.link .container .lang2 a{
+	text-decoration : none;
+	line-height : 48px;
+	float:left;
+	font-size : 13px;
+	/*margin-left: 13px;*/
+	color : #7e4c65;
+	display: block;
+	margin-left: 38.5px;
+}
+.link .container{
+	background: #f7f7f5;
+}
+.banner .container{
+	width : 1200px;
+	height: 451px;
+	background: yellow;
+	position: relative;
+}
+.banner .container img{
+	width: 100%;
+	height: 100%
+}
+.banner .slip{
+	width: 250px;
+	height : 4px;
+	position: absolute ;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 15px;
+}
+.banner .slip .case{
+	width:42px ;
+	height: 2px;
+	/*background: black;*/
+	float: left;
+	margin-left: 10px;
+	margin-top: 2px;
+	background: #b5bdc6;
+}
+.banner .slip .frist{
+	margin-left: 0;
+}
+.banner .slip .three{
+	width:42px ;
+	height: 3px;
+	background: #ffffff;
+	margin-top: 0;
+}
+.picture{
+	width : 100%;
+	height : 152px;	
+}
+.picture .container .draw{
+    width : 294px;
+	height : 144px;
+	float:left;
+	margin-left: 8px;
+	margin-top: 5px;
+	transition: all .5s;
+}
+.picture .container .draw:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+	transform: translateY(-5px);
+}
+.picture .container .draw img{
+	width: 100%;
+	height : 100%;
+}
+.picture .container{
+	background: #f7f7f5;
+}
+.picture .container .size1{
+	margin-left: 0;	
+}
+.flagship{
+	width: 100%;
+	height: 96px;
+}
+.flagship .container{
+	width: 1200px;
+    height: 96px;
+}
+.flagship .container .name1{
+	width : 218px;
+	height: 96px;
+	float : left;
+	margin-left : 480px; 
+}
+.flagship .container .name2{
+	width : 113px;
+	height: 96px;
+	float : right;	
+}
+.flagship .container .name1 a{
+	font-size: 25px;
+	color : #484848;
+	line-height: 96px;
+	margin-left: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.flagship .container .name2 a{
+	font-size: 14px;
+	color : #333333;
+	line-height: 96px;
+    margin-left : 75px;
+	text-decoration: none;
+}
+.flagship .box{
+	width: 100%;
+	height: 515px;	
+}
+.flagship .box .container{
+	width: 1200px;
+    height: 515px;   
+}
+.flagship .box .container .pic{
+	width :393px ;
+	height: 515px;
+	float : left;
+	margin-left: 10px;
+	background: #ffffff;
+	transition: all .5s;
+}
+.flagship .box .container .pic:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+	transform: translateY(-5px);
+}
+.flagship .box .container .one{
+		margin-left: 0;
+	transition: all .5s;
+}
+.flagship .box .container .one:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+	transform: translateY(-5px);
+}
+.flagship .box .container .pic img{
+	width : 233px;
+	height: 266px ;
+	margin-top: 50px ;
+	margin-left: 90px;
+}
+.flagship .box .container .pic h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+.flagship .box .container .pic h5{
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.flagship .box .container .pic h6{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #f51919;
+}
+.phone{
+	width: 100%;
+	height: 870px;
+}
+.phone .container{
+	width: 1200px;
+    height: 98px;
+}
+.phone .container .name1{
+	width : 189px;
+	height : 96px;
+	float: left;
+	margin-right: 445px;	
+}
+.phone .container .name2{
+	width : 86px;
+	height : 96px;
+	float: left;
+}
+.phone .container .name1 a{
+	font-size: 25px;
+	color : #484848;
+	line-height: 96px;
+	margin-left: 30px;
+	text-decoration: none;
+ 	font-weight: bold;
+}
+.phone .container .name2 a{
+	font-size: 14px;
+	color : #333333;
+	line-height: 96px;
+    margin-left : 50px;
+	text-decoration: none;
+}
+.phone .box {
+	width : 100%;
+	height:773px ;
+}
+.phone .box .container{
+	width : 1200px;
+	height:773px ;  
+}
+.phone .box .container .picture{
+	width : 292.5px;
+	height:380px ;
+	float: left;
+	margin-left:10px;
+	background: #ffffff;
+	margin-bottom: 10px;
+	transition: all .5s;
+}
+.phone .box .container .picture:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+	transform: translateY(-5px);
+}
+.phone .box .container .picture img{
+		width: 167px;
+		height: 203px;
+		margin-top: 40px;
+		margin-left: 70px;
+}
+.phone .box .container .one  img{
+		width : 595px;
+		height: 380px;
+		margin-top: 0 ;
+		margin-left: 0;			
+}
+.phone .box .container .one{
+	width : 595px;
+	height: 380px;
+	margin-left: 0;
+}
+.phone .box .container .fore{
+	margin-left: 0;
+
+}
+.phone .box .container .word1{
+	text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.phone .box .container .word2{
+	text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.phone .box .container .word3{
+	text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color:#f51919;
+}
+.parts{
+	width: 100%;
+	height: 870px;
+}
+.parts .container{
+	width: 1200px;
+    height: 93px;  
+}
+.parts .container .name1{
+	width : 180px;
+	height : 93px;
+	float: left;		
+}
+.parts .container .name1 a{
+	font-size: 25px;
+	color : #484848;
+	line-height: 93px;
+	margin-left: 30px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.parts .container .name2{
+	width : 400px;
+	height : 93px;
+	float: right;
+}
+.parts .container .name2 a{
+	font-size: 14px;
+	color : #333333;
+	line-height: 96px;
+    margin-left : 28px;
+	text-decoration: none;
+}
+.parts .box .container{
+	width : 1200px;
+	height:778px ;
+	background: #f7f7f5;   
+}
+.parts .box .container .picture{
+	width : 292.5px;
+	height:384px ;
+	float: left;
+	margin-left:10px;
+	background:#ffffff ;
+	margin-bottom: 10px;
+	transition: all .5s;
+}
+.parts .box .container .picture:hover{
+	box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+	transform: translateY(-5px);
+}
+.parts .box .container .one{
+	margin-left:0;
+}
+
+.parts .box .container .picture img{
+	width: 187px;
+	height: 187px;
+	margin-left: 50px;
+    margin-top:34px ;
+}
+.parts .box .container  .money1{
+	text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.parts .box .container  .money2{
+	text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.parts .box .container  .money3{
+	text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    color:#f51919;
+}
+.finish{
+	width: 100%;
+	height: 628px;
+	overflow: hidden;
+}
+.finish .container{
+	width: 1200px;
+    height: 550px;
+    background: #ffffff;
+    margin-top: 78px;
+} 
+.finish .container .link1 {
+	width: 1200px;
+    height: 120px;
+    background: #ffffff;
+    border-bottom: 1px solid #dedede;
+}
+.finish .container .link1 .lage{
+	font-size: 20px;
+    /*margin-top: 20px;*/
+    text-align: center;
+    float: left;
+    margin-left: 162px;
+    margin-top: 60px;
+}
+.finish .container .link2{
+	width: 130px;
+    height: 332px;
+    background:#ffffff;
+    float: left;
+    margin-left: 40px;
+}
+.finish .container .change{
+	margin-left: 0;
+}
+.lage1{
+	display: block;
+   text-align: left;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
+.lage1:hover{
+	color: blue;
+}
+.big{
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 80px;
+}
+.finish .container .long{
+	width: 288px;
+    height: 222px;
+    margin-left: 40px;
+    float : right;
+    position: relative;
+}
+.finish .container .long img{
+	display: block;
+    position : absolute;
+	top: 76px;
+	right: 113px;
+
+}
+.finish .container .long .top{
+    font-size: 26px;
+    color: #008ddc;
+    text-align: right;
+    margin-top: 69px;
+}
+.finish .container .long .between{
+	font-size: 25px;
+	text-align: right; 
+    color: #333339;
+    margin-top: 20px;
+}
+.finish .container .long .bottom{
+	font-size: 12px;
+	text-align: right; 
+	margin-top: 5px;
+}
+.finish .container .long1{
+	width: 1200px;
+    height: 67px;
+    background: #ffffff;
+    float: left;
+    margin-top: 31px;
+    border-top: 1px solid #dedede;
+    position: relative;  
+}
+.finish .container .long1 img{
+    display: block;
+    position : absolute;
+	top: 27px;
+	right: 434px;
+}
+.finish .container .long1 .chat1{
+	display: block;
+	float : left;
+	font-size: 12px;
+	line-height: 67px;
+	color: #333333;
+}
+.finish .container .long1 .chat2{
+	text-decoration: none;
+	color: #333333;
+	}
+.finish .container .chat3{
+	display: block;
+	font-size: 12px;
+	line-height: 67px;
+	color: #333333;
+	float: left;
+	margin-left: 300px;
+	text-decoration: none;
+	}
+.finish .container .chat4{
+	display: block;
+	font-size: 12px;
+	line-height: 67px;
+	color: #333333;
+	float: left;
+	margin-left: 40px;
+	text-decoration: none;
+}
+.finish .container .long1 .two{
+	display: block;
+    position : absolute;
+	top: 27px;
+	right: 67px;
+}
+.button{
+	width: 49px;
+	height: 150px;
+	position: fixed;
+	bottom: 30px;
+    right: 0;
+    background: #ffffff;
+} 
+
+

@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background: white ;
+    overflow: hidden;
+}
+.box{
+    width:500px ;
+    height:500px ;
+    opacity: 0.5;
+   /*border: 1px solid black;*/
+    /*background: blue ;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto ;
+    /*景深*/
+    perspective: 1000px;
+    /*观测点*/
+    perspective-origin:top right   ;
+}
+.box ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /*让子元素保持3d属性*/
+    transform-style:preserve-3d ;
+}
+.box:hover ul{
+    /*transform:  rotateY(90deg)  ;*/
+}
+.box ul li{
+    width: 200px;
+    height: 200px;
+    opacity: 0.7;
+    background: pink ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto ;
+    transition: all 1.5s ease-out ;
+}
+
+body {
+    background: url("img/3.jpg ") no-repeat  center/cover;
+}
+.box:hover .front{
+    transform: translateZ(100px) ;
+    background: url("img/2.jpg ") no-repeat center/cover;
+    box-shadow: 0 0 100px pink;
+}
+.box:hover .back{
+    transform: translateZ(-100px) ;
+    background: url("img/1.jpg ") no-repeat center/cover;
+    box-shadow: 0 0 100px pink;
+}
+.box:hover .left{
+    transform: translateX(-100px) rotateY(90deg )  ;
+    background: url("img/3.jpg ") no-repeat center/cover;
+    box-shadow: 0 0 100px pink;
+}
+.box:hover .right{
+    transform: translateX(100px) rotateY(90deg )  ;
+    background: url("img/4.jpg ") no-repeat center/cover;
+    box-shadow: 0 0 100px pink;
+}
+.box:hover .top{
+    transform: translateY(-100px) rotateX(90deg )  ;
+    background: url("img/5.jpg ") no-repeat center/cover;
+    box-shadow: 0 0 100px pink;
+}
+.box:hover .bottom {
+    transform: translateY(100px) rotateX(90deg )  ;
+    background: url("img/1.jpg ") no-repeat center/cover;
+    box-shadow: 0 0 100px pink;
+}

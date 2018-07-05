@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:3.45rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:#ff6e6e;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+}
+header ul {
+    width:7.06rem;
+    height: 0.73rem;
+    display: flex;
+    justify-content: space-between;
+}
+header ul li{
+     width: 2.2rem;
+     height: 100%;
+    margin-right: 0.2rem;
+}
+header ul li:nth-child(3){
+    width: 0.9rem;
+    height:0.5rem ;
+    border-radius: 0.4rem;
+    margin-top: 0.1rem;
+    background: white ;
+}
+header ul li:nth-child(1) img{
+  position: fixed;
+    top: 0.2rem;
+    left: 0.24rem;
+}
+header ul li:nth-child(3) img{
+    position: fixed;
+    top: 0.2rem;
+    left: 6.5rem;
+}
+header ul li:nth-child(2){
+    font-size: 0.32rem;
+    line-height:0.73rem ;
+    font-weight: bold;
+    color: white;
+
+}
+header .head{
+    width:1.72rem ;
+    height:1.89rem ;
+    margin: 0 auto;
+}
+header .head img{
+    margin-top: 0.2rem;
+}
+header .information {
+    width:6.21rem ;
+    height:1.99rem ;
+    float: left;
+    margin: 0.4rem 0.4rem;
+}
+.next{
+    width: 100%;
+    height: 8.49rem;
+    margin-top:3.45rem ;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+}
+.next li{
+    width: 7.10rem;
+    height: 0.93rem;
+    background:white  ;
+    margin:0.1rem  auto;
+    float: left;
+    font-size: 0.32rem;
+    line-height: 0.93rem;
+    border-radius: 0.2rem;
+    box-shadow: 0.02rem 0.02rem 0.02rem 0.02rem rgba(0,0,0,0.1);
+}
+.next li i{
+    font-size: 0.4rem;
+    color: #ff6e6e;
+}
+.next li span{
+   margin-left: 4.8rem;
+    font-size: 0.45rem;
+}
+.next li:nth-child(1){
+    margin-top:2rem ;
+}
+.footer{
+    width: 100%;
+    height: 0.98rem;
+    position: fixed;
+    left: 0;
+    top:10rem;
+    background: white ;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    border-top: 1px solid rgba(0 ,0 ,0,0.2) ;
+}
+.footer li{
+    width: 1.33rem;
+    height: 0.98rem;
+    float: left;
+    margin-left: 0.56rem;
+}
+.footer li:nth-child(1) {
+    margin-left: 0;
+}
+.footer li img{
+    display: block;
+    width: 0.54rem;
+    height: 0.75rem;
+    margin: 0.15rem auto ;
+}
