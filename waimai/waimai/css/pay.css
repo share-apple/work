@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:2.94rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:#ff6e6e;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+}
+header .return {
+    width: 0.55rem;
+    height:0.51rem ;
+    /*background: white ;*/
+    margin: 0.2rem 0;
+    float: left;
+}
+header .return a{
+    display: block;
+}
+header .return img{
+    width:0.36rem ;
+    height:0.49rem;
+    margin: 0 auto;
+    float: left;
+}
+header .share{
+    width: 1rem;
+    height:0.51rem ;
+    background:white ;
+    float:right;
+    margin: 0.2rem 0 ;
+    border-radius:0.255rem ;
+}
+header .share img{
+    width: 0.5rem;
+    height:0.5rem ;
+    margin-right: 0.3rem;
+    float: right;
+}
+header .top li{
+    width:7rem ;
+    height: 0.35rem;
+    margin:0.1rem auto ;
+    color: white;
+}
+header .top li .little{
+    width: 0.8rem;
+    height: 0.35rem;
+    border-radius: 0.15rem;
+    position: absolute;
+    top: 0;
+    left: 1.8rem;
+    border: 1px solid white;
+   text-align:center  ;
+}
+header .top li:nth-child(1) {
+    margin-top:0.8rem ;
+    position: relative;
+    font-size: 0.22rem;
+}
+header .top li h6{
+   font-size:0.22rem ;
+    margin-left: 0.51rem;
+}
+.box1{
+    width: 6.5rem;
+    height:2rem ;
+    background: white  ;
+    position: fixed;
+    top: 2.5rem;
+    left: 0.5rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 0.05rem  0.05rem rgba(0,0,0,0.1) ;
+}
+.box1 .time{
+    width: 95%;
+    height:1.1rem ;
+    background: white ;
+    margin: 0.1rem 0.2rem;
+    font-size: 0.3rem;
+    border-bottom: 3px dotted #5AE8CD;
+}
+.box1 .time h6{
+    float: right;
+    font-size: 0.2rem;
+    font-weight: normal;
+    color: #ff6e6e;
+}
+.box1 .pay{
+    width: 95%;
+    height:0.6rem ;
+    background: white ;
+    margin: 0.1rem 0.2rem;
+}
+.box1 .pay h6{
+    font-size: 0.3rem;
+    font-weight: normal;
+}
+.box1 .pay span{
+    font-size: 0.5rem;
+    display: block;
+    float: right;
+    margin-top:-0.5rem;
+}
+.box2{
+    width: 6.5rem;
+    height:6.4rem ;
+    margin: 4.8rem 0.5rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 0.05rem  0.05rem rgba(0,0,0,0.1) ;
+}
+.box2 li{
+    width: 95%;
+    height: 0.8rem;
+    margin: 0.1rem 0;
+    margin-left: 0.15rem;
+    overflow: hidden;
+}
+
+.box2 li:nth-child(1) h6{
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+}
+.box2 li .pic{
+    width: 1.6rem;
+    height: 1.5rem;
+    background: white ;
+    float: left;
+}
+.box2 li h6{
+    font-size: 0.2rem;
+    line-height: 0.8rem;
+}
+.box2 li .right{
+    width: 2.5rem;
+    height: 0.8rem;
+    background: white ;
+    float: right;
+}
+.box2 li .right img{
+    display: block;
+    margin: 0.3rem 0.3rem ;
+}
+.box2 li:nth-child(2) {
+    height: 1.6rem;
+    border-bottom: 3px dotted #5AE8CD;
+}
+.box2 li pre {
+    font-size: 0.3rem;
+    margin-top: 0.2rem;
+    font-weight: bold;
+}
+.box2 li:nth-child(4){
+    border-bottom: 3px dotted #5AE8CD;
+}
+.box3{
+    width: 6.5rem;
+    height:1.6rem ;
+   margin: -4.5rem 0.5rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 0.05rem  0.05rem rgba(0,0,0,0.1) ;
+}
+.box3 img{
+    display: block;
+    margin: 0.2rem 0.2rem;
+}
+.box3 li{
+    width: 100%;
+    height: 0.8rem;
+    margin: 0.1rem 0;
+    background: greenyellow ;
+}
+.footer{
+    width: 100%;
+    height: 0.98rem;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    background: white ;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+}
+.footer li{
+    width: 1.33rem;
+    height: 0.98rem;
+    float: left;
+}
+.footer li:nth-child(2){
+   font-size: 0.23rem;
+    line-height: 0.98rem;
+}
+.footer li:nth-child(3) {
+    width: 1.63rem;
+    height: 0.7rem;
+    border-radius: 0.35rem;
+    float: right;
+    margin-top: 0.15rem;
+    background: #5AE8CD ;
+    font-size: 0.3rem;
+    line-height: 0.7rem;
+    text-align: center ;
+    color: white;
+}
+.footer h6{
+    font-size: 0.4rem;
+    text-align: center ;
+    line-height: 0.98rem;
+    color: #ff6e6e;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
